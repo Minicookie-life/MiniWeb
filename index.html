@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #container {
+            margin-top: 50px;
+        }
+        #image {
+            width: 100%; /* 让图片宽度适应其容器 */
+            max-width: 100%;
+            height: auto; /* 让高度自动调整，保持比例 */
+        }
+        #button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href="https://wa.me/85244809667">
+            <img id="image" src="pic.png" alt="Your Image">
+        </a>
+        <br>
+    </div>
+
+    <script>
+        // 在页面加载后延时跳转到另一个页面
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "https://wa.me/85244809667"; // 替换为你想要跳转的页面地址
+            }, 5000); // 5000 毫秒即 5 秒钟后跳转
+        };
+    </script>
+</body>
+</html>
